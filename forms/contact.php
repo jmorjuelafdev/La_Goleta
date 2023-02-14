@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8'); 
-$to = 'johanaof@hotmail.com';
+$to = 'jmorjuelafdev@hotmail.com';
 $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
 $from = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_SPECIAL_CHARS);
